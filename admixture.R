@@ -22,6 +22,6 @@ awk '{ print $2 " " $1}' filtered.ped > info.txt
 
 
 #Now run the following Rscript to generate a plot of K2-4. Rscript downloaded from: https://github.com/speciationgenomics/scripts
-Rscript ./plotADMIXTURE.r --prefix filtered --infofile data/info.txt --maxK 4 --minK 2 --populations Foskett_Spring,Dace_Spring,Coleman_Creek,Deep_Creek,Twentymile_Creek
+Rscript ./plotADMIXTURE.r --prefix filtered --infofile info.txt --maxK 4 --minK 2 --populations Foskett_Spring,Dace_Spring,Coleman_Creek,Deep_Creek,Twentymile_Creek
 #DONE
 
